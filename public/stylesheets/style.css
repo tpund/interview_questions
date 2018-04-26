@@ -1,0 +1,123 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+.easterEgg {
+  position: absolute;
+  top: 0;
+  left: 0;
+  display:none;
+}
+
+.left {
+  width: 220px;
+  text-align: center;
+  padding: 20px;
+  float: left;
+}
+.right {
+  margin-left: 220px;
+  text-align: center;
+  padding: 20px;
+  /* Change this to whatever the width of your left column is*/
+}
+.clear {
+  clear: both;
+}
+
+.dragme_1 { 
+  position:  absolute;
+  width: 250px; 
+  height: 148px;
+  background: rgb(14, 173, 221); 
+  border: 2px  solid rgba(0,0,0,0.5); 
+  border-radius: 8px; 
+  cursor: move;
+}
+
+.dragme_2 { 
+  position:  absolute;
+  width: 250px; 
+  height: 148px;
+  background: rgb(230, 122, 122); 
+  border: 2px  solid rgba(0,0,0,0.5); 
+  border-radius: 8px; 
+  cursor: move;
+}
+
+.dragme_3 { 
+  position:  absolute;
+  width: 250px; 
+  height: 148px;
+  background: rgb(228, 95, 194); 
+  border: 2px  solid rgba(0,0,0,0.5); 
+  border-radius: 8px; 
+  cursor: move;
+}
+
+.dragme_4 { 
+  position:  absolute;
+  width: 250px; 
+  height: 148px;
+  background: rgb(105, 214, 114); 
+  border: 2px  solid rgba(0,0,0,0.5); 
+  border-radius: 8px; 
+  cursor: move;
+}
+
+.textzone {
+  margin: 0 auto;
+  margin-top: 20px;
+  left: 0;
+  border: 1px solid black;
+  height: 20px;
+  width: 500px;
+  background-color: #eee;
+  border-radius: 8px;
+  text-align:center;
+}
+
+.dragzone_q1 {
+  margin: 0 auto;
+  margin-top: 20px;
+  left: 0;
+  border: 1px solid black;
+  height: 150px;
+  width: 500px;
+  background-color: #eee;
+  border-radius: 8px;
+}
+
+.dragzone_q2 {
+  margin: 0 auto;
+  margin-top: 20px;
+  left: 0;
+  border: 1px solid black;
+  height: 150px;
+  width: 500px;
+  background-color: #eee;
+  border-radius: 8px;
+}
+
+.dragzone_q3 {
+  margin: 0 auto;
+  margin-top: 20px;
+  left: 0;
+  border: 1px solid black;
+  height: 150px;
+  width: 500px;
+  background-color: #eee;
+  border-radius: 8px;
+}
+
+.dragzone_q4 {
+  margin: 0 auto;
+  margin-top: 20px;
+  left: 0;
+  border: 1px solid black;
+  height: 150px;
+  width: 500px;
+  background-color: #eee;
+  border-radius: 8px;
+}
